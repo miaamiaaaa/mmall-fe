@@ -1,0 +1,34 @@
+{
+  "name": "mmall-fe",
+  "version": "1.0.0",
+  "description": "mmall-frontend-code",
+  "main": "index.js",
+  "scripts": {
+    "dev"  : "WEBPACK_ENV=dev webpack-dev-server --inline --port 8088",
+    "dist" : "WEBPACK_ENV=online webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miaamiaaaa/mmall-fe.git"
+  },
+  "author": "mia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miaamiaaaa/mmall-fe/issues"
+  },
+  "homepage": "https://github.com/miaamiaaaa/mmall-fe#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.10",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.11.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.20.2",
+    "url-loader": "^0.5.8",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.16.5"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
+}
