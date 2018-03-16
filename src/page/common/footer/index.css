@@ -1,0 +1,25 @@
+/*
+* @Author: miaamiaaaa
+* @Date:   2018-03-11 01:48:48
+* @Last Modified by:   miaamiaaaa
+* @Last Modified time: 2018-03-11 15:42:59
+*/
+
+.footer{
+	padding-bottom: 20px;
+	
+}
+.footer .links{
+	text-align: center;
+	color : #666;
+	line-height: 30px;
+}
+.footer .links .link{
+	padding: 0, 30px;
+}
+.footer .copyright{
+	text-align: center;
+	color:#666;
+	line-height: 30px;
+}
+

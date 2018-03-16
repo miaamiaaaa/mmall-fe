@@ -1,0 +1,30 @@
+/*
+* @Author: miaamiaaaa
+* @Date:   2018-03-15 23:35:36
+* @Last Modified by:   miaamiaaaa
+* @Last Modified time: 2018-03-16 15:49:02
+*/
+.page-wrap{
+	background: #fff;
+	margin-top: 20px;
+	text-align: center;
+	padding: 50px 0;
+}
+
+.result-con {
+	display: none;
+}
+.result-con .result-title{
+	color: #555;
+}
+
+.result-con .result-content{
+	margin-top: 20px;
+	padding: 10px 0;
+}
+
+.result-con .result-content .link{
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+	margin: 0 5px;
+}
